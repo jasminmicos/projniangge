@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en" data-photo-src="photo.jpg,photo.jpeg,photo.png,photo.webp">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Angeline Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="bar">
+    <a class="mark" href="#home" data-go="home" aria-label="Angeline, home">Angeline</a>
+    <nav aria-label="Main">
+      <a class="nav-link" href="#home" data-go="home">Home</a>
+      <a class="nav-link" href="#about" data-go="about">About</a>
+      <a class="nav-link" href="#skills" data-go="skills">Skills</a>
+      <a class="nav-link" href="#projects" data-go="projects">Projects</a>
+      <a class="nav-link" href="#contact" data-go="contact">Contact</a>
+      <button class="chip" id="theme" type="button" aria-label="Switch colour theme">Theme</button>
+    </nav>
+  </div>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+</header>
+
+<main class="wrap">
+
+  <!-- HOME -->
+  <section class="view home" id="home" data-view="home">
+    <h1 class="name" aria-label="Angeline"><span style="--i:0">A</span><span style="--i:1">n</span><span style="--i:2">g</span><span style="--i:3">e</span><span style="--i:4">l</span><span style="--i:5">i</span><span style="--i:6">n</span><span style="--i:7">e</span></h1>
+    <div class="frame-wrap">
+      <div class="orbit-ring" aria-hidden="true"><i></i></div>
+      <div class="orbit-ring r2" aria-hidden="true"><i></i></div>
+      <div class="frame">
+        <div class="slot">
+          <img data-photo src="images/angeline.jpg" alt="Portrait of Angeline">
+          <span class="ph" aria-hidden="true"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="view" id="about" data-view="about">
+    <div class="about-grid">
+      <div class="pic st" style="--i:0">
+        <div class="slot">
+          <img data-photo src="images/angeline.jpg" alt="Portrait of Angeline">
+          <span class="ph" aria-hidden="true"></span>
+        </div>
+      </div>
+      <div class="about-copy">
+        <div class="page-head wide st" style="--i:1"><span class="label">About me</span><h2>A developer who cares about the <em>details.</em></h2></div>
+        <p class="lede st" style="--i:2">I turn ideas into clean, working software, from the first sketch to the final deploy.</p>
+        <p class="st" style="--i:3">I'm Angeline, a developer who enjoys building web apps and tools that people actually use. I like owning a project end to end: planning the idea, designing the interface, writing the code and fixing what breaks.</p>
+        <p class="st" style="--i:4">I learn fastest by shipping small things and improving them. </p>
+        <dl class="facts st" style="--i:5">
+          <div><dt>Role</dt><dd>[Your role]</dd></div>
+          <div><dt>Focus</dt><dd>Web apps and tools</dd></div>
+          <div><dt>Languages</dt><dd>[Languages you speak]</dd></div>
+          <div><dt>Based in</dt><dd>[Your city, country]</dd></div>
+          <div><dt>Studying</dt><dd>[Your course and school]</dd></div>
+          <div><dt>Availability</dt><dd>Open to opportunities</dd></div>
+        </dl>
+      </div>
+    </div>
+
+    <div class="do-grid">
+      <div class="do st" style="--i:6"><div class="gl">&lt;/&gt;</div><h3>Build</h3><p>Clean front ends and dependable back ends, written so the next person can read them.</p></div>
+      <div class="do st" style="--i:7"><div class="gl">&#9998;</div><h3>Design</h3><p>Simple layouts, clear type and small details that make an interface feel finished.</p></div>
+      <div class="do st" style="--i:8"><div class="gl">&#8593;</div><h3>Learn</h3><p>Reading docs, breaking things on purpose and turning each lesson into the next project.</p></div>
+    </div>
+
+    <div class="tl-wrap">
+      <div class="page-head st" style="--i:9"><span class="label">Journey</span><h2>Where I've <em>been.</em></h2></div>
+      <div class="tl">
+        <div class="tl-item st" style="--i:10"><span class="label">20XX &ndash; Present</span><h3>[Course or degree]</h3><p>[School name]. Add what you study and the topics you enjoy most.</p></div>
+        <div class="tl-item st" style="--i:11"><span class="label">20XX</span><h3>[HS]</h3><p>Add hs or shs.</p></div>
+        <div class="tl-item st" style="--i:12"><span class="label">20XX</span><h3>[ELEM]</h3><p>Add elem school</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="view" id="skills" data-view="skills">
+    <div class="sk-top">
+      <div>
+        <div class="page-head wide st" style="--i:0"><span class="label">Skills</span><h2>What I <em>work with.</em></h2></div>
+        <p class="intro st" style="--i:1">These are placeholders. Swap each card for a real skill, a short note on how you use it and your honest level.</p>
+      </div>
+      <div class="orbit st" style="--i:2" aria-hidden="true">
+        <div class="orb o1" style="--t:20s">
+          <div class="nd" style="--a:0deg"><span class="chip-s" style="--a:0deg;--t:20s">Skill 01</span></div>
+          <div class="nd" style="--a:180deg"><span class="chip-s" style="--a:180deg;--t:20s">Skill 02</span></div>
+        </div>
+        <div class="orb o2 rev" style="--t:32s">
+          <div class="nd" style="--a:90deg"><span class="chip-s" style="--a:90deg;--t:32s">Skill 03</span></div>
+          <div class="nd" style="--a:270deg"><span class="chip-s" style="--a:270deg;--t:32s">Skill 04</span></div>
+        </div>
+        <div class="core">Core<br>stack</div>
+      </div>
+    </div>
+    <div class="sk-grid" id="skGrid"></div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="view" id="projects" data-view="projects">
+    <div class="page-head wide st" style="--i:0"><span class="label">Projects</span><h2>Selected <em>work.</em></h2></div>
+    <div class="pr-grid">
+      <article class="pr st" style="--i:1">
+        <div class="thumb" style="--g1:#2a2433;--g2:#b07a93;--g3:#6f8fa6"><span>Web app</span></div>
+        <div class="pr-body"><h3>Project name</h3><p>One or two sentences about the problem it solves, who it is for and what you built.</p><div class="tags"><span class="tag">Tech</span><span class="tag">Tech</span><span class="tag">Tech</span></div><a class="more" href="#projects" data-go="projects">View project <span>&rarr;</span></a></div>
+      </article>
+      <article class="pr st" style="--i:2">
+        <div class="thumb" style="--g1:#1f2a33;--g2:#d4b5a0;--g3:#7a8fb0"><span>Website</span></div>
+        <div class="pr-body"><h3>Project name</h3><p>One or two sentences about the problem it solves, who it is for and what you built.</p><div class="tags"><span class="tag">Tech</span><span class="tag">Tech</span><span class="tag">Tech</span></div><a class="more" href="#projects" data-go="projects">View project <span>&rarr;</span></a></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="view ct" id="contact" data-view="contact">
+    <div class="rings-bg" aria-hidden="true"></div>
+    <div class="ct-grid">
+      <div>
+        <span class="label st" style="--i:0">Contact</span>
+        <h2 class="st" style="--i:1">Let's build something <em>together.</em></h2>
+        <div class="avail st" style="--i:2"><i aria-hidden="true"></i>Open to internships and freelance work</div>
+        <p class="st" style="--i:3;color:var(--soft);max-width:44ch;margin-top:24px">Tell me what you're working on, when you need it and how big the team is. I reply within two working days.</p>
+        <div class="mail-row st" style="--i:4">
+          <span class="mail" id="mail">angelinetagalog0829@gmail.com</span>
+          <button class="btn ghost" id="copy" type="button">Copy address</button>
+        </div>
+      </div>
+      <form class="form st" id="contactForm" style="--i:3">
+        <label for="f-name">Your name</label>
+        <input id="f-name" name="name" type="text" autocomplete="name" required placeholder="Full name">
+        <label for="f-email">Your email</label>
+        <input id="f-email" name="email" type="email" autocomplete="email" required placeholder="you@example.com">
+        <label for="f-msg">Message</label>
+        <textarea id="f-msg" name="message" rows="6" required placeholder="Tell me about your project"></textarea>
+        <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button class="btn" id="send" type="submit">Send message</button>
+        <p class="status" id="status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap label">
+    <span>&copy; 2026 Angeline</span>
+    <span>Sample content. Replace names, projects and links with your own.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
